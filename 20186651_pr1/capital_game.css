@@ -1,0 +1,48 @@
+* {
+    box-sizing:border-box;
+  }
+  
+  body {
+    font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+    max-width: 30rem;
+    background-color:#f3f3f4;
+    margin:0 auto;
+    text-align: center;
+  }
+  
+  .contents {
+  
+  }
+  
+  table {
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  
+  th {
+    border-bottom: 2px solid black;
+    padding: 4px;
+    text-transform: uppercase;
+  }
+  
+  td {
+    border-bottom: 1px solid #808080;
+    padding: 4px;
+    text-align: left;
+  }
+  
+  .fa-check {
+    color: green;
+  }
+  
+  .row2{
+    color: green;
+  }
+  
+  .row3{
+    color: red;
+  }
+  
+  .row3 :nth-child(2) {
+    text-decoration:line-through;
+  }
