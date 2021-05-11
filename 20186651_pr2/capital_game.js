@@ -67,6 +67,7 @@ function deleteRowTable() {
 }
 
 function makeCapitalList(list) {
+  console.log(typeof(list), "makeCapitalList");
   let newlist = [];
   for (i = 0; i<list.length; i++) {
     newlist.push(list[i].capital);
